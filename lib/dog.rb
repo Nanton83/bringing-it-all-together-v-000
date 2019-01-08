@@ -93,7 +93,9 @@ class Dog
    end
 
    def self.find_or_create_by(hash)
-     new_dog = self.new_from_db(hash)
+     dog_name = hash[:name]
+     dog_breed = hash[:breed]
+     new_dog = self.new(name: dog_name, breed: dog_breed)
      binding.pry
 
    end
