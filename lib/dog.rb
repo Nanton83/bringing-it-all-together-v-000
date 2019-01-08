@@ -96,6 +96,7 @@ class Dog
      dog_name = hash[:name]
      dog_breed = hash[:breed]
      new_dog = self.new(name: dog_name, breed: dog_breed)
+     self.find_by_name(new_dog.name)
      binding.pry
 
    end
