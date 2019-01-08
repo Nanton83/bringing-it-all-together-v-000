@@ -81,6 +81,7 @@ class Dog
 
    def self.find_by_id(id)
      id_search = new_from_db(id)
+     binding.pry
    end
 
 end
