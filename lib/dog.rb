@@ -97,7 +97,7 @@ class Dog
      dog_breed = hash[:breed]
      found_dog = self.find_by_name(dog_name)
      binding.pry
-  
+
    end
 
 end
