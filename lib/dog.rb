@@ -97,6 +97,7 @@ class Dog
      dog_breed = hash[:breed]
      new_dog = self.new(name: dog_name, breed: dog_breed)
      new_dog.name
+     binding.pry
 
    end
 
