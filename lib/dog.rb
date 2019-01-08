@@ -80,6 +80,7 @@ class Dog
    end
 
    def self.find_by_id(id)
+     id_search = new_from_db(id)
    end
 
 end
